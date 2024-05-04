@@ -58,11 +58,13 @@ export const AppReducer = (state, action) => {
                 budget
             };
         case 'SET_BUDGET':
-            action.type = "DONE";
-            state.budget = action.payload;
-
+            // this is the action that will be dispatched by the Budget component (changes remaining budget too)
+            const newBudget = action.payload;
+            const totalExpenses = state.expenses.reduce((sum, expense) => sum + expense.cost, 0);
             return {
                 ...state,
+                budget: newBudget,
+                remaining: newBudget - totalExpenses
             };
         case 'CHG_CURRENCY':
             action.type = "DONE";
