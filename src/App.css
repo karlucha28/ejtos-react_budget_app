@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Custom styles for the currency dropdown */
+.custom-select-green {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.custom-select-green option {
+  background-color: green; /* default background */
+  color: black; /* text color */
+}
+
+/* Unfortunately, you cannot directly style :hover on options,
+ this is a limitation of HTML/CSS, and would need JavaScript
+ or a custom dropdown component to fully implement */
+.custom-select-green option:hover {
+  background-color: white; /* hover background */
+  color: black; /* hover text color */
+}
