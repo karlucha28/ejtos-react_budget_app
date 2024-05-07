@@ -18,7 +18,7 @@ const CurrencyDropdown = () => {
         setSelectedCurrency(currency);
         dispatch({
             type: 'CHG_CURRENCY',
-            payload: currency.name
+            payload: currency  // passing the entire currency object
         });
         setDropdownOpen(false);  // Close the dropdown
     };
