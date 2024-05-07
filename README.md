@@ -10,17 +10,27 @@ In the project directory, you can run:
 
 
 ## All needed screens:
-
+Task 1: Budget allocation Validation accepts only number value. Provide screenshot budget_allocation.png.
 ![Task 1: Budget allocation Validation accepts only number value. Provide screenshot budget_allocation.png.](./src/images/budget_allocation.png)
+Task 2: Budget allocation validation does not allow more than remaining budget. Provide screenshot budget_allocation_error message.png.
 ![Task 2: Budget allocation validation does not allow more than remaining budget. Provide screenshot budget_allocation_error message.png.](./src/images/budget_allocation_error_message.png)
+Task 3: Editable budget value shows increment and decrement button. Provide screenshot budget_value.png. 
 ![Task 3: Editable budget value shows increment and decrement button. Provide screenshot budget_value.png. ](./src/images/budget_value.png)
+Task 4: Editable budget value shows value cannot exceed 20000. Provide screenshot budget_not_exceeding.png. 
 ![Task 4: Editable budget value shows value cannot exceed 20000. Provide screenshot budget_not_exceeding.png. ](./src/images/budget_not_exceeding.png)
+Task 5: Editable budget value shows value cannot be lower than the spending. Provide screenshot budget_morethan_spending.png.
 ![Task 5: Editable budget value shows value cannot be lower than the spending. Provide screenshot budget_morethan_spending.png. ](./src/images/budget_morethan_spending.png)
+Task 6: Dropdown to change currency Provide screenshot curreny_dropdown.png. 
 ![Task 6: Dropdown to change currency Provide screenshot curreny_dropdown.png. ](./src/images/curreny_dropdown.png)
-![ask 7: Currency prefix to the Change Allocation textbox is added. Provide screenshot budget_allocation_with_currency.png.](./src/images/budget_allocation_with_currency.png)
+Task 7: Currency prefix to the Change Allocation textbox is added. Provide screenshot budget_allocation_with_currency.png.
+![Task 7: Currency prefix to the Change Allocation textbox is added. Provide screenshot budget_allocation_with_currency.png.](./src/images/budget_allocation_with_currency.png)
+Task 8: Currency prefix to the Budget Value textbox is added. Provide screenshot budget_value_with_currency.png.
 ![Task 8: Currency prefix to the Budget Value textbox is added. Provide screenshot budget_value_with_currency.png. ](./src/images/budget_value_with_currency.png)
+Task 9: Change event of the currency has been implemented.  dropdown. Provide screenshot currency_change.png.
 ![Task 9: Change event of the currency has been implemented.  dropdown. Provide screenshot currency_change.png.](./src/images/currency_change.png)
+Task 10: Decrease button showing the working of the decrease button. Provide screenshot mktgplus10.png.
 ![Task 10: Decrease button showing the working of the decrease button. Provide screenshot mktgplus10.png.](./src/images/mktgplus10.png)
+Task 11: Increase button showing the working of the increase button. Provide screenshot itminus10.png.
 ![Task 11: Increase button showing the working of the increase button. Provide screenshot itminus10.png. ](./src/images/itminus10.png)
 ...
 
